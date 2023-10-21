@@ -78,7 +78,7 @@ git commit -m "コミットメッセージ"
 
 ### リモートリポジトリを設定
 
-GitHub などのリモートリポジトリの
+GitHub などのリモートリポジトリのアドレスに.git をつけたアドレスです。例えば、このリポジトリであれば、`https://github.com/emiria-ai/induction-course.git`です。
 
 ```bash
 git remote add origin [リポジトリURL]
