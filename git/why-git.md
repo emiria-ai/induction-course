@@ -15,6 +15,14 @@
 1. コラボレーション: チームでの作業が容易になります。
 1. オープンソース: オープンソースプロジェクトでよく使用されます。
 
+## Git のインストール
+
+Mac であれば、HomeBrew でインストールするのが一番手っ取り早いです。
+
+```bash
+brew install git
+```
+
 ## .gitconfig について
 
 .gitconfig は Git の設定ファイルで、ユーザー名やメールアドレス、使いたいエディタなどを設定できます。GitHub と同じ情報で揃える事によって、活動履歴が表示されるようになります。
@@ -38,14 +46,6 @@ name や email をグローバルで登録するには、以下のコマンド�
 ```bash
 git config --global user.name "Mona Lisa"
 git config --global user.email "YOUR_EMAIL"
-```
-
-## Git のインストール
-
-Mac であれば、HomeBrew でインストールするのが一番手っ取り早いです。
-
-```bash
-brew install git
 ```
 
 ## GitHub にプッシュするまでの手順
